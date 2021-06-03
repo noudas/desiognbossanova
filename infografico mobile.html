@@ -1,0 +1,433 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<script src="jquery-3.2.1.js">
+</script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('#baden,#dale,#de,#dorival,#lennie,#maysa,#menscal,#mpb,#nana,#nara,#sylvia,#tom,#velenca,#vinicius').hide();
+});
+$(function() {
+    $('#1965').click(function() {
+		$('#dale,#nana,#de,#mpb').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#1964').click(function() {
+		$('#nara,#tom,#vinicius,#maysa,#lennie,#sylvia').slideToggle('slow');
+	});
+});
+
+$(function() {
+    $('#1963').click(function() {
+		$('#baden,#menscal,#velenca,#dorival').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#bandenn').click(function() {
+		$('#baden').slideToggle('slow');
+	});
+});
+
+$(function() {
+    $('#dalee').click(function() {
+		$('#dale').slideToggle('slow');
+	});
+});
+
+$(function() {
+    $('#dee').click(function() {
+		$('#de').slideToggle('slow');
+	});
+});
+
+$(function() {
+    $('#dorivall').click(function() {
+		$('#dorival').slideToggle('slow');
+	});
+});
+
+$(function() {
+    $('#lenniee').click(function() {
+		$('#lennie').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#maysaa').click(function() {
+		$('#maysa').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#menescall').click(function() {
+		$('#menscal').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#mpbb').click(function() {
+		$('#mpb').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#nanaa').click(function() {
+		$('#nana').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#naraa').click(function() {
+		$('#nara').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#sylviaa').click(function() {
+		$('#sylvia').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#tomm').click(function() {
+		$('#tom').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#valencaa').click(function() {
+		$('#velenca').slideToggle('slow');
+	});
+});
+$(function() {
+    $('#viniciuss').click(function() {
+		$('#vinicius').slideToggle('slow');
+	});
+});
+</script>
+<style>
+.accesso_I0 {
+	display:inline-block;
+	top: 88px;
+	right: 643px;
+	width: 40px;
+	height: 0;
+	padding-top: 40px;
+	overflow: hidden;
+	background: #FF0000;
+	border-radius: 20px;
+}
+
+.accesso_I1 {
+	display:inline-block;
+	top: 88px;
+	right: 558px;
+	width: 40px;
+	height: 0;
+	padding-top: 40px;
+	overflow: hidden;
+	background: #FF0000;
+	border-radius: 20px;
+}
+
+
+.accesso_I2 {
+	display:inline-block;
+	top: 88px;
+	right: 712px;
+	width: 40px;
+	height: 0;
+	padding-top: 40px;
+	overflow: hidden;
+	background: #FF0000;
+	border-radius: 20px;
+}
+
+.accesso_I3 {
+	display:inline-block;
+	top: 88px;
+	right: 793px;
+	width: 40px;
+	height: 0;
+	padding-top: 40px;
+	overflow: hidden;
+	background: #FF0000;
+	border-radius: 20px;
+}
+
+.botoesA1{
+}
+
+.tituloI1{
+	margin-top:4px
+}
+.logoINFO{
+	margin-left:20px;
+	margin-top: 20px;
+	}
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+.container {
+  padding: 1em;
+}
+
+.timeline {
+  position: relative;
+  overflow: auto;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background: #000000;
+  left: 0;
+}
+.timeline h2 {
+  background: #ffffff;
+  max-width: 6em;
+  margin: 0 auto 1em;
+  padding: 0.5em;
+  text-align: center;
+  position: relative;
+  clear: both;
+  border: 4px solid #000000;
+}
+.timeline ul {
+  list-style: none;
+  padding: 0 0 0 1em;
+  z-index: 1;
+}
+.timeline li {
+  background: #ffffff;
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+   border: 4px solid #000000;
+}
+.timeline li:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 1em solid ##ffffff;
+  border-left: 1em solid transparent;
+  position: absolute;
+  left: -1em;
+  top: 0;
+}
+.timeline h3 {
+  margin-top: 0;
+}
+.timeline time {
+  font-style: italic;
+}
+
+@media screen and (min-width: 40em) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline ul {
+    padding-left: 0;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .timeline li {
+    width: 42%;
+  }
+  .timeline li:nth-child(even) {
+    float: right;
+    margin-top: 2em;
+  }
+  .timeline li:nth-child(odd) {
+    float: left;
+  }
+  .timeline li:nth-child(odd):before {
+    border-top: 1em solid ##ffffff;
+    border-right: 1em solid transparent;
+    right: -1em;
+    left: auto;
+  }
+  .timeline li:nth-of-type(2n+1) {
+    clear: both;
+  }
+}
+.shit {
+  cursor:pointer;
+  display:block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: red;
+   margin:0 auto;
+  }
+.bossa {
+cursor:pointer;
+  display:block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: red;
+   margin:0 auto;
+}
+.oh,.is{
+	text-align:center;
+	  margin:0 auto;
+	}
+	loko{
+		font-family:"compacta Bold1";
+		font-size:50px;
+	}
+	@font-face{
+	font-family:compacta Bold1;
+	src:url('css/Compacta%20Bold%20BT.ttf'),local('css/Compacta%20Bold%20BT.ttf');
+	}
+	@font-face {
+	font-family:Muller;
+	src:url('css/MullerNarrow-Light.otf'),local('css/MullerNarrow-Light.otf');
+}
+h3{
+	font-family:"Muller";
+}
+h2{
+	font-family:"Muller";
+}
+p{
+font-family:"Muller";	
+}
+</style>
+<body>
+<br>
+<div class="transiçaoA1">
+  <div class="tituloI1">
+    <center>
+<loko>DESIGN BOSSA NOVA</loko>
+</center>
+</div>
+<br><br><br><br>
+<div class="botoesA1">
+<center>
+      <p class="I0"><a href="index2.html" id="accesso_I0" class="accesso_I0"></a> &nbsp;  &nbsp;    <span class="I1"><a href="galeria ligth box.html" id="acesso_I1" class="accesso_I1"></a></span><span class="I2"> &nbsp;   &nbsp;   <a href="EDITAL" id="acesso_I2" class="accesso_I2"></a></span><span class="I3"> &nbsp;  &nbsp;   <a href="infografico mobile.html" id="acesso_I3" class="accesso_I3"></a></span></p>
+<p class="I1">&nbsp;</p>
+</center>
+      <p class="I2">&nbsp;</p>
+      <p class="I3">&nbsp;</p>
+  </div>
+</div>
+<br><br><br><br>
+<div class="container">
+  <div class="timeline">
+    <h2 id="1963">1963</h2>
+
+    <ul>
+      <li>
+        <h3>Baden Powell</h3>
+        <p>À Vontade</p>
+   		<img id="bandenn" src="img/record_46.jpg">
+        <iframe id="baden" src="https://open.spotify.com/embed?uri=spotify:album:0XE49qeqsadtJk59sGWlA1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      
+      <li>
+        <h3>Roberto Menescal</h3>
+        <p>A Bossa Nova De Roberto Menescal E Seu Conjunto</p>
+         <img id="menescall" src="img/11.png">
+      	<iframe id="menscal" src="https://open.spotify.com/embed?uri=spotify:album:2YTEs0W6KsD7UzEMPXNhHl" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      <li>
+        <h3>Rosinha de Valença</h3>
+
+        <p>Apresentando Rosinha de Valença</p>
+      <img id="valencaa" src="img/12.png">
+      <iframe id="velenca" src="https://open.spotify.com/embed?uri=spotify:album:2HPXHv2M4vUmnQLKgaFvjd" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      <li>
+        <h3>Dorival Caymmi e Tom Jobim</h3>
+        <p> Caymmi Visita Tom</p>
+ <img id="dorivall" src="img/7.png">
+ <iframe id="dorival" src="https://open.spotify.com/embed?uri=spotify:album:293mlZ9t69UffbWwyMrn3r" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      </ul>
+      <h2 id="1964">1964</h2>
+      <ul>
+      <li>
+        <h3>Nara Leão</h3>
+        <p>Nara</p>
+         <img id="naraa" src="img/1.png">
+         <iframe id="nara" src="https://open.spotify.com/embed?uri=spotify:album:066MI8NKoq0I1SMmUztesT" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      <li>
+        <h3>Tom Jobim</h3>
+        <p>Antônio Carlos Jobim</p>
+   <img id="tomm" src="img/2.jpg">
+   <iframe id="tom" src="https://open.spotify.com/embed?uri=spotify:album:5mctboYhRrVDokcffc8u22" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Vinicius de Moraes e Odette Lara</h3>
+        <p>Vinicius & Odete Lara</p>
+   <img id="viniciuss" src="img/13.png">
+   <iframe id="vinicius" src="https://open.spotify.com/embed?uri=spotify:album:28kNIeJkxKWyyHW6rMEPbk" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Maysa</h3>
+        <p>Maysa</p>
+   <img id="maysaa" src="img/4.jpg">
+   <iframe id="maysa" src="https://open.spotify.com/embed?uri=spotify:album:6k6krKhggYWgeAyLTQddqO" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Lennie Dale e Bossa Três</h3>
+        <p>Um Show de Bossa</p>
+    <img id="lenniee" src="img/5.png">
+    <iframe id="lennie" src="https://open.spotify.com/embed?uri=spotify:album:2BQuOa39pOfGON7C8F3tSq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Sylvia Telles, Lúcio Alves, Roberto Menescal e seu Conjunto</h3>
+        <p>Bossa Session</p>
+     <img id="sylviaa" src="img/10.png">
+     <iframe id="sylvia" src="https://open.spotify.com/embed?uri=spotify:album:0rYokwEC1yeQUn0xRWXgIC" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+      </ul>
+      <h2 id="1965">1965</h2>
+      <ul>
+       <li>
+        <h3>Lennie Dale e o Sambalanço Trio </h3>
+         <img id="dalee" src="img/8.png">
+           <iframe id="dale" src="https://open.spotify.com/embed?uri=spotify:album:2BQuOa39pOfGON7C8F3tSq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Nana Caymmi</h3>
+        <p>Nana</p>
+    <img id="nanaa" src="img/14.png">
+    <iframe id="nana" src="https://open.spotify.com/embed?uri=spotify:album:06zWUffQGImRjBw1LqFfvs" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>Vinicius de Moraes e Dorival Caymmi</h3>
+        <p>Vinicius e Caymmi no Zum Zum</p>
+    <img id="dee" src="img/6.png">
+    <iframe id="de" src="https://open.spotify.com/embed?uri=spotify:album:025xgCwkQtiqKtc0Ug2zPI" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+       <li>
+        <h3>MPB4</h3>
+        <p>MPB4</p>
+     <img id="mpbb" src="img/9.png">
+     <iframe id="mpb" src="https://open.spotify.com/embed?uri=spotify:album:7dwdTa8CwJhmv0IDKshjJo" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </li>
+    </ul>
+  </div>
+</div>
+<br><br><br><br>
+
+</body>
+</html>
